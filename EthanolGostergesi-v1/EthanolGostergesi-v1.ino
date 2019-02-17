@@ -110,7 +110,7 @@ void loop()
     }
     if( (mainLoopCount & 255) == 1) //256 Loop
     {
-      goster_hw();
+      goster_sw();
     }
   }
 }
