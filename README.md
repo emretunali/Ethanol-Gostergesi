@@ -1,7 +1,7 @@
 # Ethanol-Gostergesi
 Arduino Uno,Nano, Pro Mini Platformları üzerine kurulmuş ethanol göstergesi. LCD olarak Nextion kullanılmıştır.
 
-Devreyi kurup elektrik verdiğinizde eğer bağlantıları doğru yaptıysanız gösterge 0 dan 100e kadar sayıp sonrasında sensörden gelen bilgiyi gösterecektir. Eğer sürekli ekranda 254 değerini alıyorsanız Arduino ile nextion lcd arasındaki rx tx uçlarını yanlış bağlamışsınız demekdir. Uçları ters çevirmeniz yeterli olacaktır.
+Devreyi kurup elektrik verdiğinizde eğer bağlantıları doğru yaptıysanız gösterge 0 dan 100e kadar sayıp sonrasında sensörden gelen bilgiyi gösterecektir. Eğer sürekli ekranda 254 değerini alıyorsanız Arduino ile nextion lcd arasındaki rx tx uçlarını yanlış bağlamışsınız demekdir. Uçları ters çevirmeniz yeterli olacaktır. İllaki arduino uno kullanmanıza gerek yok. Aynı kodları nano, pro mini içinde kullanabilirsiniz. Projenin ticari hiç bir amacı yoktur. İstediğiniz gibi geliştirebilir, dağıtabilir ve yapıp satabilirsiniz. İlerliyen güncellemelerde oled ve 2x16 lcd bağlantılarınıda ekleyeceğim.
 
 Takıldığınız bir yer olursa e.tunali@sparkems.com.tr mail adresimden bana ulaşabilirsiniz.
 
