@@ -1,6 +1,6 @@
 #include <SoftwareSerial.h>
 
-SoftwareSerial mySerial(12, 11); // RX, TX
+SoftwareSerial mySerial(12, 11); // RX, TX - Nextion Display haberleşme pinleri
 
 unsigned int ethanol=0;
 unsigned int ethanol2 = 0;   
@@ -10,20 +10,20 @@ unsigned long curGap;
 unsigned long toothLastToothTime = 0;
 unsigned long toothLastMinusOneToothTime = 0;
 
-byte pinFlex = 2;
+byte pinFlex = 2; // Ethanol sensörü sinyal portu
 
 int mainLoopCount;
 
 void setup()
 {
- Serial.begin(9600); // Debug Monitor baudrate
- mySerial.begin(9600);
+ Serial.begin(9600); // Seri terminal debug modnitor baudrate ayarı
+ mySerial.begin(9600); // nextion display baudrate ayarı
  
- pinMode(pinFlex, INPUT_PULLUP);
+ pinMode(pinFlex, INPUT_PULLUP);  // ethanol sensörü portu giriş olarak tanımlanıp internal pull-up direnci tanımlanıyor.
 
  for (int i=0; i <= 100; i++)
  {
-    goster_hw();
+    goster_sw();
     ethanol=ethanol+1;
     ethanol2=map(ethanol,0,100,5,84);
     delay(1);
@@ -31,7 +31,7 @@ void setup()
 
   for (int i=0; i <= 101; i++)
   {
-    goster_hw();
+    goster_sw();
     ethanol=ethanol-1;
     ethanol2=map(ethanol,0,100,5,84);
     delay(1);
