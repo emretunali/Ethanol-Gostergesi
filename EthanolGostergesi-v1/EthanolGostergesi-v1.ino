@@ -1,6 +1,6 @@
 /**
   ******************************************************************************
-  * @file      OledEthanolGauge.ino
+  * @file      EthanolGostergesi-v1.ino
   * @author    Emre TUNALI
   * @version   V1.0.1
   * @date      19 - Şubat - 2019
