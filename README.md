@@ -5,6 +5,10 @@ Devreyi kurup elektrik verdiğinizde eğer bağlantıları doğru yaptıysanız 
 
 Takıldığınız bir yer olursa e.tunali@sparkems.com.tr mail adresimden bana ulaşabilirsiniz.
 
+* V1.0.0 - Continental Flex Fuel Sensorden alınan veriler işlendi
+*        - Nextion 2.8" Lcd'ye görüntü aktarıldı ve test edildi çalışıyor.
+* V1.0.1 - 2x16 LCD eklemesi yapıldı. ( Test Edilmedi ! )
+
 # bilgipaylaştıkçaçoğalır
 # kendinyap
 # kendinöğren
